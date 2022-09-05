@@ -12,12 +12,12 @@ console.log(frag);
 
 yarn:
 ```sh
-yarn add esbuild-plugin-glslify --dev
+yarn add @pobidowski/esbuild-plugin-glslify --dev
 ````
 
 NPM:
 ```sh
-npm install --save-dev esbuild-plugin-glslify
+npm install --save-dev @pobidowski/esbuild-plugin-glslify
 ```
 
 ## Usage
