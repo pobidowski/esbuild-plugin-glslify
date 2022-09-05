@@ -61,4 +61,4 @@ function glslify(options) {
     }
 }
 
-export { glslify, glslify as default };
+module.exports = glslify;
