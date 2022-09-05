@@ -1,10 +1,5 @@
-/**
- * Based on https://github.com/glslify/rollup-plugin-glslify
- */
-'use strict';
-
-import { dirname } from 'path';
-import * as _glslify from 'glslify';
+const { dirname } = require('path');
+const _glslify = require('glslify');
 
 function compressShader(code) {
     let needNewline = false;
